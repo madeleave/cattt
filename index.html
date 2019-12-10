@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>個人履歷</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		 @import url("list.css")
+		body{
+			width: 1503px;
+			background-color: #C9C9C9;
+			font-family: "微軟正黑體";
+			font-weight: bold;
+		}
+		footer{
+			background-color:#1C1C1C;
+		}
+		.page{
+			background-color: #878787;
+			width: 80%;
+			margin-top: 30px;
+			margin-left: 12%;
+			padding-top: 20px;
+		}
+		.bar{
+			background-color: #C9C9C9;
+			padding: 9px;
+            border:1px #C9C9C9;
+            border-radius: 20px 20px;
+            position: relative;
+            left: 360px;
+            top: -8px;
+		}
+		.realbar{
+
+			border-top:5px #C9C9C9 solid;
+		}
+		.tree{
+			border-right: 10px #C9C9C9 solid;
+			float: left;
+			padding: 20px;
+			width: 400px;
+		}
+		section{
+
+			border: 5px #C9C9C9 solid;
+			width: 80%;
+			margin-top: 30px;
+			margin-left: 12%;
+		}
+		a:hover{
+			color: white;
+		}
+		h2{
+			font-size: 20px;
+
+		}
+		h1{
+			font-size: 24px;
+		}
+		.logo{
+			width:40%;
+			padding:15px;
+			position: relative;
+			left: 300px;
+		}
+		.head{
+			border-radius: 200px 200px;
+			border:3px black solid;
+			float: left;
+			position: relative;
+			left: 150px;
+			top: 5px;
+			width:150px;
+			height: 150px;
+		}
+		.leo{
+			float: right;
+			border-radius: 200px 200px;
+			border:3px black solid;
+			width:150px;
+			height: 150px;
+		}
+		.sch{
+
+			border-radius: 200px 200px;
+			border:3px black solid;
+			
+			position: relative;
+			
+			width:115px;
+			height:115px;
+		
+		}
+		.cla1{
+			position: relative;
+			left: 20px;
+			border:3px black solid;
+			width:200px;
+			height:200px;
+			float: left;
+		}
+		.cla2{
+			position: relative;
+			left: 220px;
+			border:3px black solid;
+			width:200px;
+			height:200px;
+			float: left;
+		}
+		.icon{
+			width: 2%;
+		}
+		.word1{
+			position: relative;
+			left: -180px;
+		}
+		.word2{
+			position: relative;
+			left: 230px;
+			top: -120px;
+		}
+		.pic img{
+			transform:scale(1,1);
+			transition: all 1s ease-out;
+		}
+		.pic img:hover{
+			transform: scale(1.2,1.2);
+		}
+			.container-timeline {
+			width: 60%;
+			height:20px;
+			background-color: #C9C9C9;
+			text-align: left;
+			border-radius:20px 20px;
+		}
+		.abli {
+			text-align: right;
+			color: black;
+		}
+		.VS {
+			position: relative;
+			top:-20px; 
+			width: 50%;
+			height:20px;
+			background-color: lightblue;
+			animation-name:abl50;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			border-radius:20px 20px;
+		}
+		.java {
+			position: relative;
+			top:-20px; 
+			width: 30%;
+			height:20px;
+			background-color:#FFFF77;
+			animation-name: abl55;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			border-radius:20px 20px;
+		}
+		.html {
+			position: relative;
+			top:-20px; 
+			width: 40%;
+			height:20px;
+			background-color:#FFB7DD;
+			animation-name: abl35;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			border-radius:20px 20px;
+		}
+
+		.python{
+			position: relative;
+			top:-20px; 
+			width: 15%;
+			height:20px;
+			background-color: #DDFF77;
+			animation-name: abl30;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			border-radius:20px 20px;
+		}
+
+		.abl{
+			position:absolute;
+			top:725px;
+			left:500px;
+			width:70%;
+			}
+
+		@keyframes abl50 {
+			20% {width: 10%}
+			70% {width: 30%}
+			100% {width: 30%}
+		}
+		@keyframes abl55 {
+			10% {width: 0%}
+			42% {width: 33%}
+			100% {width: 33%}
+		}
+
+		@keyframes abl35 {
+			25% {width: 0%}
+			60% {width: 21%}
+			100% {width: 21%}
+		}
+
+		@keyframes abl30 {
+			30% {width: 0%}
+			90% {width: 18%}
+			100% {width: 18%}
+		}
+
+
+
+body{
+			width: 1503px;
+			background-color: #C9C9C9;
+			font-family: "微軟正黑體";
+			font-weight: bold;
+		}
+		footer{
+			background-color:#1C1C1C;
+		}
+		.page{
+			background-color: #878787;
+			width: 80%;
+			margin-top: 30px;
+			margin-left: 12%;
+			padding-top: 20px;
+		}
+		.bar{
+			background-color: #C9C9C9;
+			padding: 9px;
+            border:1px #C9C9C9;
+            border-radius: 20px 20px;
+            position: relative;
+            left: 360px;
+            top: -8px;
+		}
+		.realbar{
+
+			border-top:5px #C9C9C9 solid;
+		}
+		.tree{
+			border-right: 10px #C9C9C9 solid;
+			float: left;
+			padding: 20px;
+			width: 400px;
+		}
+		section{
+
+			border: 5px #C9C9C9 solid;
+			width: 80%;
+			margin-top: 30px;
+			margin-left: 12%;
+		}
+		a:hover{
+			color: white;
+		}
+		h2{
+			font-size: 20px;
+
+		}
+		h1{
+			font-size: 24px;
+		}
+		.logo{
+			width:40%;
+			padding:15px;
+			position: relative;
+			left: 300px;
+		}
+		.head{
+			border-radius: 200px 200px;
+			border:3px black solid;
+			float: left;
+			position: relative;
+			left: 150px;
+			top: 5px;
+			width:150px;
+			height: 150px;
+		}
+		.leo{
+			float: right;
+			border-radius: 200px 200px;
+			border:3px black solid;
+			width:150px;
+			height: 150px;
+		}
+		.sch{
+
+			border-radius: 200px 200px;
+			border:3px black solid;
+			
+			position: relative;
+			
+			width:115px;
+			height:115px;
+		
+		}
+		.cla1{
+			position: relative;
+			left: 20px;
+			border:3px black solid;
+			width:200px;
+			height:200px;
+			float: left;
+		}
+		.cla2{
+			position: relative;
+			left: 220px;
+			border:3px black solid;
+			width:200px;
+			height:200px;
+			float: left;
+		}
+		.icon{
+			width: 2%;
+		}
+		.word1{
+			position: relative;
+			left: -180px;
+		}
+		.word2{
+			position: relative;
+			left: 230px;
+			top: -120px;
+		}
+		.pic img{
+			transform:scale(1,1);
+			transition: all 1s ease-out;
+		}
+		.pic img:hover{
+			transform: scale(1.2,1.2);
+		}
+			.container-timeline {
+			width: 60%;
+			height:20px;
+			background-color: #C9C9C9;
+			text-align: left;
+			border-radius:20px 20px;
+		}
+		.abli {
+			text-align: right;
+			color: black;
+		}
+		.VS {
+			position: relative;
+			top:-20px; 
+			width: 50%;
+			height:20px;
+			background-color: lightblue;
+			animation-name:abl50;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			border-radius:20px 20px;
+		}
+		.java {
+			position: relative;
+			top:-20px; 
+			width: 30%;
+			height:20px;
+			background-color:#FFFF77;
+			animation-name: abl55;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			border-radius:20px 20px;
+		}
+		.html {
+			position: relative;
+			top:-20px; 
+			width: 40%;
+			height:20px;
+			background-color:#FFB7DD;
+			animation-name: abl35;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			border-radius:20px 20px;
+		}
+
+		.python{
+			position: relative;
+			top:-20px; 
+			width: 15%;
+			height:20px;
+			background-color: #DDFF77;
+			animation-name: abl30;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			border-radius:20px 20px;
+		}
+
+		.abl{
+			position:absolute;
+			top:725px;
+			left:500px;
+			width:70%;
+			}
+
+		@keyframes abl50 {
+			20% {width: 10%}
+			70% {width: 30%}
+			100% {width: 30%}
+		}
+		@keyframes abl55 {
+			10% {width: 0%}
+			42% {width: 33%}
+			100% {width: 33%}
+		}
+
+		@keyframes abl35 {
+			25% {width: 0%}
+			60% {width: 21%}
+			100% {width: 21%}
+		}
+
+		@keyframes abl30 {
+			30% {width: 0%}
+			90% {width: 18%}
+			100% {width: 18%}
+		}
+
+
+
+
+ul.timeline{
+list-style-type: none;
+position: relative;
+}
+ul.timeline:before{
+content:' ';
+background-color: red;
+display: inline-block;
+position: absolute;
+left: 30px;
+width: 2px;
+height: 100%;
+z-index: 400;
+}
+ul.timeline > li{
+margin: 20px 0;
+padding-left: 25px;
+}
+ul.timeline > li:before {
+content: ' ';
+background: brown;
+display: inline-block;
+position: absolute;
+border-radius: 50%;
+border: 3px double #CC6600;
+left: 20px;
+width: 20px;
+height: 20px;
+z-index: 400;
+}
+.time{
+position:absolute;
+top:800px;
+left:150px;
+font-size: 18px;
+font-weight: bold;
+font-family: "微軟正黑體";
+}
+.timetxt{
+font-size: 18px;
+color:red;
+}
+	</style>
+</head>
+<body>
+	<div class="page" style="height:1600px;">
+		<section style="height:1500px;">
+			<div>
+				<img src="picc/head.jpg" class="head">
+				<img src="picc/logo.jpg" class="logo" align="center">
+				<h3 align="center">中原大學二年級-資管系</h3>
+				<h4 align="center">我來自新竹，是個離中壢不遠的城市</h4>
+				<div class="bar" style="width: 225px;" >
+					<p align="center" >人們常說某些事會隨時間改變<br>但事實上你必須自己改變它們</p>
+				</div>
+			</div>
+			<div class="realbar" > 		
+ 			</div>
+ 			<div class="tree" style="height:161px; ">
+ 				<img src="picc/leo.jpg" class="leo">
+ 				<h2>生日:07/23/2000</h2>
+ 				<h2>電話:0908157942</h2>
+ 				<h2 style="font-size: 15px;">信箱:voyoq101@gmail.com</h2>
+ 				<h2 style="font-size: 15px;">個人網站:<br><a href="http://madeleave.github.io/cat/">http://madeleave.github.io/cat/</a></h2>
+ 			</div>
+ 			<div>
+ 				<h1 align="center">學歷</h1>
+ 				<div class="pic">
+ 					<img src="picc/sch1.jpg" class="sch">
+ 					<img src="picc/sch2.jpg" class="sch">
+ 					<img src="picc/sch3.jpg" class="sch">
+ 					<img src="picc/sch4.jpg" class="sch"> 					
+ 				</div>
+ 				
+ 			</div>
+ 			<div class="realbar" style=""></div>
+ 			<div>
+ 				<h1 align="center">程式能力</h1>
+ 				<p>&emsp;Visual basic</p>
+ 				<p>&emsp;Java</p>
+ 				<p>&emsp;Html</p>
+ 				<p>&emsp;Python</p>
+ 				<div class="abl">
+ 					<div class="container-timeline"></div>
+ 					<div class="abli VS">50%</div>
+ 					<div class="container-timeline"></div><div class="abli java">55%</div>
+ 					<div class="container-timeline"></div><div class="abli html">35%</div>
+ 					<div class="container-timeline"></div><div class="abli python">30%</div>
+ 				</div>
+ 			</div>
+ 			<div class="realbar"></div>
+ 			<div>
+ 				<h1 align="center">專案</h1>
+ 				<div class="pic">
+ 				<img src="picc/class1.jpg" class="cla1">
+ 				
+ 				<img src="picc/class2.jpg" class="cla2">
+ 				</div>
+ 				<p class="word1">大一上:<br>&emsp;企業概論<br>與黑孩子黑咖啡合作<br>幫助偏鄉的公益團體在<br>中原大學販售商品</p>
+ 				<p class="word2">大二下:<br>&emsp;與地方公益團體合作<br>幫忙推廣該公益團體<br>並且幫忙設計活動專案</p>
+ 				
+ 			</div>
+ 			<div class="realbar"></div>
+ 			<div>
+ 				<h1 align="center">社團</h1>
+ 				<div class="pic">
+ 				<img src="picc/108新生盃.jpg" class="cla1">
+ 				<img src="picc/club.jpg" class="cla2">
+ 				</div>
+ 				<p class="word1">系隊:<br>&emsp;系男排<br>與許多學長一起練習<br>最中在比賽中展現成果<br>給我很深的印象</p>
+ 				<p class="word2">高中:<br>&emsp;大眾傳播社<br>除了學習大眾傳播知識<br>也帶給了我快樂的高中生活</p>
+		</section>
+	</div>
+	<footer>
+		<p style="color:white;text-align: center;">版權所有者為"張樂杰"</p>
+		 <p style="color:white;text-align: center;">點擊下方圖示聯絡我</p>
+		<a href="https://www.instagram.com/happyhappyjay/?hl=zh-tw"><img src="picc/insta.jpg" class="icon"></a>
+		<a href="https://www.facebook.com/profile.php?id=100007084114676"><img src="picc/fb.jpg" class="icon"></a>
+		<img src="picc/gmail.jpg" class="icon">
+		<p style="color:white;">電子郵件:voyoq101@gmail.com</p>
+		<p style="color:white;">地址: 320桃園市中壢區普忠路202號</p>
+	</footer>
+</body>
+</html>

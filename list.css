@@ -1,0 +1,463 @@
+body{
+			width: 1503px;
+			background-color: #C9C9C9;
+			font-family: "微軟正黑體";
+			font-weight: bold;
+		}
+		footer{
+			background-color:#1C1C1C;
+		}
+		.page{
+			background-color: #878787;
+			width: 80%;
+			margin-top: 30px;
+			margin-left: 12%;
+			padding-top: 20px;
+		}
+		.bar{
+			background-color: #C9C9C9;
+			padding: 9px;
+            border:1px #C9C9C9;
+            border-radius: 20px 20px;
+            position: relative;
+            left: 360px;
+            top: -8px;
+		}
+		.realbar{
+
+			border-top:5px #C9C9C9 solid;
+		}
+		.tree{
+			border-right: 10px #C9C9C9 solid;
+			float: left;
+			padding: 20px;
+			width: 400px;
+		}
+		section{
+
+			border: 5px #C9C9C9 solid;
+			width: 80%;
+			margin-top: 30px;
+			margin-left: 12%;
+		}
+		a:hover{
+			color: white;
+		}
+		h2{
+			font-size: 20px;
+
+		}
+		h1{
+			font-size: 24px;
+		}
+		.logo{
+			width:40%;
+			padding:15px;
+			position: relative;
+			left: 300px;
+		}
+		.head{
+			border-radius: 200px 200px;
+			border:3px black solid;
+			float: left;
+			position: relative;
+			left: 150px;
+			top: 5px;
+			width:150px;
+			height: 150px;
+		}
+		.leo{
+			float: right;
+			border-radius: 200px 200px;
+			border:3px black solid;
+			width:150px;
+			height: 150px;
+		}
+		.sch{
+
+			border-radius: 200px 200px;
+			border:3px black solid;
+			
+			position: relative;
+			
+			width:115px;
+			height:115px;
+		
+		}
+		.cla1{
+			position: relative;
+			left: 20px;
+			border:3px black solid;
+			width:200px;
+			height:200px;
+			float: left;
+		}
+		.cla2{
+			position: relative;
+			left: 220px;
+			border:3px black solid;
+			width:200px;
+			height:200px;
+			float: left;
+		}
+		.icon{
+			width: 2%;
+		}
+		.word1{
+			position: relative;
+			left: -180px;
+		}
+		.word2{
+			position: relative;
+			left: 230px;
+			top: -120px;
+		}
+		.pic img{
+			transform:scale(1,1);
+			transition: all 1s ease-out;
+		}
+		.pic img:hover{
+			transform: scale(1.2,1.2);
+		}
+			.container-timeline {
+			width: 60%;
+			height:20px;
+			background-color: #C9C9C9;
+			text-align: left;
+			border-radius:20px 20px;
+		}
+		.abli {
+			text-align: right;
+			color: black;
+		}
+		.VS {
+			position: relative;
+			top:-20px; 
+			width: 50%;
+			height:20px;
+			background-color: lightblue;
+			animation-name:abl50;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			border-radius:20px 20px;
+		}
+		.java {
+			position: relative;
+			top:-20px; 
+			width: 30%;
+			height:20px;
+			background-color:#FFFF77;
+			animation-name: abl55;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			border-radius:20px 20px;
+		}
+		.html {
+			position: relative;
+			top:-20px; 
+			width: 40%;
+			height:20px;
+			background-color:#FFB7DD;
+			animation-name: abl35;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			border-radius:20px 20px;
+		}
+
+		.python{
+			position: relative;
+			top:-20px; 
+			width: 15%;
+			height:20px;
+			background-color: #DDFF77;
+			animation-name: abl30;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			border-radius:20px 20px;
+		}
+
+		.abl{
+			position:absolute;
+			top:725px;
+			left:500px;
+			width:70%;
+			}
+
+		@keyframes abl50 {
+			20% {width: 10%}
+			70% {width: 30%}
+			100% {width: 30%}
+		}
+		@keyframes abl55 {
+			10% {width: 0%}
+			42% {width: 33%}
+			100% {width: 33%}
+		}
+
+		@keyframes abl35 {
+			25% {width: 0%}
+			60% {width: 21%}
+			100% {width: 21%}
+		}
+
+		@keyframes abl30 {
+			30% {width: 0%}
+			90% {width: 18%}
+			100% {width: 18%}
+		}
+
+
+
+body{
+			width: 1503px;
+			background-color: #C9C9C9;
+			font-family: "微軟正黑體";
+			font-weight: bold;
+		}
+		footer{
+			background-color:#1C1C1C;
+		}
+		.page{
+			background-color: #878787;
+			width: 80%;
+			margin-top: 30px;
+			margin-left: 12%;
+			padding-top: 20px;
+		}
+		.bar{
+			background-color: #C9C9C9;
+			padding: 9px;
+            border:1px #C9C9C9;
+            border-radius: 20px 20px;
+            position: relative;
+            left: 360px;
+            top: -8px;
+		}
+		.realbar{
+
+			border-top:5px #C9C9C9 solid;
+		}
+		.tree{
+			border-right: 10px #C9C9C9 solid;
+			float: left;
+			padding: 20px;
+			width: 400px;
+		}
+		section{
+
+			border: 5px #C9C9C9 solid;
+			width: 80%;
+			margin-top: 30px;
+			margin-left: 12%;
+		}
+		a:hover{
+			color: white;
+		}
+		h2{
+			font-size: 20px;
+
+		}
+		h1{
+			font-size: 24px;
+		}
+		.logo{
+			width:40%;
+			padding:15px;
+			position: relative;
+			left: 300px;
+		}
+		.head{
+			border-radius: 200px 200px;
+			border:3px black solid;
+			float: left;
+			position: relative;
+			left: 150px;
+			top: 5px;
+			width:150px;
+			height: 150px;
+		}
+		.leo{
+			float: right;
+			border-radius: 200px 200px;
+			border:3px black solid;
+			width:150px;
+			height: 150px;
+		}
+		.sch{
+
+			border-radius: 200px 200px;
+			border:3px black solid;
+			
+			position: relative;
+			
+			width:115px;
+			height:115px;
+		
+		}
+		.cla1{
+			position: relative;
+			left: 20px;
+			border:3px black solid;
+			width:200px;
+			height:200px;
+			float: left;
+		}
+		.cla2{
+			position: relative;
+			left: 220px;
+			border:3px black solid;
+			width:200px;
+			height:200px;
+			float: left;
+		}
+		.icon{
+			width: 2%;
+		}
+		.word1{
+			position: relative;
+			left: -180px;
+		}
+		.word2{
+			position: relative;
+			left: 230px;
+			top: -120px;
+		}
+		.pic img{
+			transform:scale(1,1);
+			transition: all 1s ease-out;
+		}
+		.pic img:hover{
+			transform: scale(1.2,1.2);
+		}
+			.container-timeline {
+			width: 60%;
+			height:20px;
+			background-color: #C9C9C9;
+			text-align: left;
+			border-radius:20px 20px;
+		}
+		.abli {
+			text-align: right;
+			color: black;
+		}
+		.VS {
+			position: relative;
+			top:-20px; 
+			width: 50%;
+			height:20px;
+			background-color: lightblue;
+			animation-name:abl50;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			border-radius:20px 20px;
+		}
+		.java {
+			position: relative;
+			top:-20px; 
+			width: 30%;
+			height:20px;
+			background-color:#FFFF77;
+			animation-name: abl55;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			border-radius:20px 20px;
+		}
+		.html {
+			position: relative;
+			top:-20px; 
+			width: 40%;
+			height:20px;
+			background-color:#FFB7DD;
+			animation-name: abl35;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			border-radius:20px 20px;
+		}
+
+		.python{
+			position: relative;
+			top:-20px; 
+			width: 15%;
+			height:20px;
+			background-color: #DDFF77;
+			animation-name: abl30;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			border-radius:20px 20px;
+		}
+
+		.abl{
+			position:absolute;
+			top:725px;
+			left:500px;
+			width:70%;
+			}
+
+		@keyframes abl50 {
+			20% {width: 10%}
+			70% {width: 30%}
+			100% {width: 30%}
+		}
+		@keyframes abl55 {
+			10% {width: 0%}
+			42% {width: 33%}
+			100% {width: 33%}
+		}
+
+		@keyframes abl35 {
+			25% {width: 0%}
+			60% {width: 21%}
+			100% {width: 21%}
+		}
+
+		@keyframes abl30 {
+			30% {width: 0%}
+			90% {width: 18%}
+			100% {width: 18%}
+		}
+
+
+
+
+ul.timeline{
+list-style-type: none;
+position: relative;
+}
+ul.timeline:before{
+content:' ';
+background-color: red;
+display: inline-block;
+position: absolute;
+left: 30px;
+width: 2px;
+height: 100%;
+z-index: 400;
+}
+ul.timeline > li{
+margin: 20px 0;
+padding-left: 25px;
+}
+ul.timeline > li:before {
+content: ' ';
+background: brown;
+display: inline-block;
+position: absolute;
+border-radius: 50%;
+border: 3px double #CC6600;
+left: 20px;
+width: 20px;
+height: 20px;
+z-index: 400;
+}
+.time{
+position:absolute;
+top:800px;
+left:150px;
+font-size: 18px;
+font-weight: bold;
+font-family: "微軟正黑體";
+}
+.timetxt{
+font-size: 18px;
+color:red;
+}
